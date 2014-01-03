@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: TESTING TESTING TESTING
 tagline: Supporting tagline
 ---
 {% include JB/setup %}
@@ -22,7 +22,7 @@ In `_config.yml` remember to specify your own data:
       twitter : username
 
 The theme should reference these variables whenever needed.
-    
+
 ## Sample Posts
 
 This blog contains sample posts which help stage pages and blog data.
