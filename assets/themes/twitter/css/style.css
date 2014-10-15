@@ -75,9 +75,8 @@ body{
 }
 
 #home{
-  padding-top: 6em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-top: 2em;
+  max-width: 800px;
 }
 
 a{
