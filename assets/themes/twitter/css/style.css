@@ -68,15 +68,36 @@ body p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+
+#face{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#home{
+  padding-top: 6em;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 320px) {
+  #face img{
+    height: 100px;
+    width: 100px;
+  }
+  #face.span4 {
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+  #home{
+    padding-top: 0;
+  }
 }
 
 body{
   background-color: none;
-}
-
-#home{
-  padding-top: 2em;
-  max-width: 800px;
 }
 
 a{
