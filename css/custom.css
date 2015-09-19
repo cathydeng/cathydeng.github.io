@@ -1,0 +1,61 @@
+@font-face {
+  font-family: SourceSansPro-Regular;
+  src: url(/fonts/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+  font-family: SourceSansPro-Light;
+  src: url(/fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+  font-family: FjordOne-Regular;
+  src: url(/fonts/FjordOne-Regular.otf);
+}
+
+h3 {
+  font-family: FjordOne-Regular;
+  font-size: 2.4em;
+}
+
+h4 {
+  font-family: FjordOne-Regular;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: SourceSansPro-Light;
+  font-size: 1.3em;
+}
+
+#face img{
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 180px;
+  width: 180px;
+}
+
+#face{
+  padding-top: 1.2em;
+  padding-bottom: 1em;
+}
+
+.content{
+  padding-top: 3em;
+}
+
+
+body{
+  background-color: none;
+}
+
+a{
+  color:#DD626C;
+}
+
+a:hover{
+  color:#FDA0A6;
+  text-decoration: none;
+}
