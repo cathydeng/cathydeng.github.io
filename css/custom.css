@@ -19,18 +19,20 @@ body{
   font-size: 18px;
 }
 
-h3 {
+h1 {
   font-family: FjordOne-Regular;
-  font-size: 2.4em;
+  font-size: 40px;
 }
 
-h4 {
-  font-family: FjordOne-Regular;
-  font-size: 1.5em;
+.content {
+  padding-top: 60px;
 }
 
-
-#face img{
+#face-div {
+  padding-top: 40px;
+  padding-bottom: 18px;
+}
+#face-div img{
   border-radius: 100%;
   display: block;
   margin-left: auto;
@@ -39,19 +41,9 @@ h4 {
   width: 180px;
 }
 
-#face{
-  padding-top: 40px;
-  padding-bottom: 18px;
-}
-
 #social-icons {
   font-size: 24px;
 }
-
-.content {
-  padding-top: 60px;
-}
-
 
 ul {
   margin: 0;
@@ -73,18 +65,25 @@ ul > li:before {
 a {
   color:#DD626C;
 }
-
 a:hover {
   color:#FDA0A6;
   text-decoration: none;
 }
 
 @media only screen and (max-width : 767px) { 
-  #face{
-    padding-top: 0px;
+  #face-div {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  #face-div img{
+    height: 120px;
+    width: 120px;
   }
   .content {
-    padding-top: 40px;
+    padding-top: 0px;
+  }
+  h1 {
+    font-size: 36px;
   }
 
 }
