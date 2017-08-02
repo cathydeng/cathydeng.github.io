@@ -24,6 +24,22 @@ h1 {
   font-size: 40px;
 }
 
+.serif {
+  font-family: FjordOne-Regular;
+}
+.text-muted {
+  color: #aaa;
+}
+.label-default {
+  background-color: #eee;
+  color: inherit;
+}
+
+
+.padding {
+  height: 18px;
+}
+
 .content {
   padding-top: 60px;
 }
@@ -70,7 +86,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width : 767px) { 
+@media only screen and (max-width : 767px) {
   #face-div {
     padding-top: 20px;
     padding-bottom: 0px;
