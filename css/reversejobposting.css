@@ -1,8 +1,9 @@
 h1, h2, h3 {
-  font-family: Futura, sans-serif;
+  font-family: SourceSansPro-Black;
+  color: #7BB0A6;
 }
 
 .label-default {
-  font-family: Futura, sans-serif;
+  font-family: SourceSansPro-Black;
   margin-right: 3px;
 }

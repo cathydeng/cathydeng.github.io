@@ -9,24 +9,23 @@
 }
 
 @font-face {
-  font-family: FjordOne-Regular;
-  src: url(/fonts/FjordOne-Regular.otf);
+  font-family: SourceSansPro-Black;
+  src: url(/fonts/SourceSansPro-Black.otf);
 }
 
+
 body{
-  font-family: SourceSansPro-Light;
+  font-family: SourceSansPro-Regular, sans-serif;
   background-color: none;
   font-size: 18px;
 }
 
 h1 {
-  font-family: FjordOne-Regular;
+  font-family: SourceSansPro-Black;
   font-size: 40px;
 }
 
-.serif {
-  font-family: FjordOne-Regular;
-}
+
 .text-muted {
   color: #999;
 }
