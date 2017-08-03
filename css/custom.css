@@ -28,7 +28,7 @@ h1 {
   font-family: FjordOne-Regular;
 }
 .text-muted {
-  color: #aaa;
+  color: #999;
 }
 .label-default {
   background-color: #eee;
@@ -88,8 +88,8 @@ a:hover {
 
 @media only screen and (max-width : 767px) {
   #face-div {
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
   #face-div img{
     height: 120px;
